@@ -1,0 +1,97 @@
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #f7f9fc;
+    text-align: center;
+}
+
+
+/* Navigasi */
+nav{
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    background-color: #fff;
+    box-shadow: -1px -7px 20px 0 #888;
+    z-index: 99;
+    top: -1px;
+}
+
+nav ul {
+    position: relative;
+    top: 20px;
+    float: right;
+    margin: 0;
+    right: 10%;
+}
+
+nav ul li{
+    float: left;
+    display: block;
+    margin: 0 15px 0 15px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #888;
+    font-family: 'Helvetica' sans-serif;
+    font-size: 14px;
+}
+
+nav ul li a:hover {
+    color: #55a8fd;
+}
+
+.menu-mobile {
+    position: relative;
+    display: none;
+    float: right;
+}
+
+.menu-mobile a{
+    text-decoration: none;
+    font-size: 14px;
+    padding: 5px 10px 5px 10px;
+    color: #888;
+    text-transform: uppercase;
+    border: 1px solid #888;
+}
+
+/* Big layer */
+.full {
+    width: 800px;
+    border: 3px solid white;
+    margin: 100px auto;
+    position: relative;
+    left: 100px;
+    float: left;
+    box-shadow: #888;
+}
+
+
+/* thumbnail */
+.thumbnail{
+    width: 400px;
+    border: 3px solid white;
+    background-color: white;
+    float: left;
+    margin-left : 20px;
+    position: relative;
+    top : 100px;
+    left: 150px;
+}
+.thumb{
+    width: 200px;
+    box-sizing: border-box;
+    float: left;
+    border: 3px solid white;
+}
+
+.thumb:hover{
+    opacity: .5;
+    cursor: pointer;
+}
